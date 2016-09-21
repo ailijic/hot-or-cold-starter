@@ -23,7 +23,7 @@ $(document).ready(function main () {
   let origHtml = fields.reduce(makeHtmlObj, {})
   let guessList = []
   console.log(origHtml) // Delete later
-
+  
   $('a.new').click(function doNewGame (event) {
     event.preventDefault()
     fields.map(resetObj)
